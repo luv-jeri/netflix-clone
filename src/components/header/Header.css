@@ -1,0 +1,113 @@
+header {
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url("https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfB_3OdRtaz66PnsryT47lx0db9ALFEBkiiRwf0sCaZ8-QKE1CEb6x3BGo9D5u7rQ4aDLUJyPSiXHt9GAmTBjX3GcNyU1EhW6sqn.webp?r=50f");
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+.header_inner_shadow {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: inset 0px 166px 145px -1px rgba(0, 0, 0, 0.55);
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header_content {
+    margin-left: 5vw;
+    padding-top: 15vw;
+    color: white;
+    line-height: 1.2;
+
+}
+
+.header_billboard {
+    position: relative;
+    margin-bottom: 1.2vw;
+    z-index: 1;
+}
+
+.header_billboard img {
+    width: 35vw;
+}
+
+.header_description {
+    font-size: 1.4vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    margin-bottom: 0.1vw;
+}
+
+.header_fader {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header_buttons {
+    display: flex;
+    margin-top: 1.2vw;
+
+}
+
+.header_button {
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem ;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    margin-top: 0.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header_button svg {
+    margin-right: 0.5rem;
+
+}
+
+.play_button {
+    background-color: #fff;
+    color: #000;
+    margin-right: 1rem;
+}
+
+.play_button:hover {
+    background-color: #e6e6e6;
+}
+
+.my_list_button {
+    background-color: rgba(109,
+            109,
+            110,
+            0.7);
+    color: #fff;
+}
+
+.my_list_button:hover {
+    background-color: rgba(109,
+            109,
+            110,
+            0.4);
+}

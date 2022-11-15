@@ -1,0 +1,90 @@
+@keyframes black_nav {
+    0% {
+        background-color: transparent
+    }
+
+    100% {
+        background: #141414
+
+    }
+}
+
+@keyframes transparent_nav {
+    0% {
+        background: #141414
+    }
+
+    100% {
+        background-color: transparent
+    }
+}
+
+nav {
+    color: #FFF;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    font-size: 0.9rem;
+}
+
+
+.nav_back {
+    animation: black_nav 0.6s ease-in-out forwards;
+}
+
+.nav_transparent {
+    animation: transparent_nav 0.6s ease-in-out forwards;
+}
+
+nav section {
+    width: 92%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.nav_left {
+    display: flex;
+    width: 85%;
+
+}
+
+.nav_logo {
+    height: 1.8rem;
+}
+
+.nav_links {
+    margin-left: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+    transition: color 0.5s;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.nav_links a:active {
+    color: red
+}
+
+.nav_links a:hover {
+    color: rgb(156, 156, 156);
+}
+
+.nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    flex: 1;
+}
