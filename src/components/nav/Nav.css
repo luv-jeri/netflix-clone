@@ -46,10 +46,9 @@ nav section {
     margin-inline: auto;
 }
 
-.nav_left {
+.nav_left { 
     display: flex;
     width: 85%;
-
 }
 
 .nav_logo {
